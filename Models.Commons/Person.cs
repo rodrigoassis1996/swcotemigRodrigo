@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace WebTestProject.Models
+namespace Models.Commons
 {
     public class Person
     {
@@ -11,5 +12,6 @@ namespace WebTestProject.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public int Old { get; set; }
+        public int Id { get; set; }
     }
 }
