@@ -8,6 +8,7 @@ namespace Models.Commons
 {
     public class Person
     {
+        public string Telefone { get; set; }
         public string CPF { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
